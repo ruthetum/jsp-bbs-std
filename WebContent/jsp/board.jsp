@@ -4,8 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>글쓰기</title>
-<link rel="stylesheet" href="../css/style.css">
+<title>Insert title here</title>
 </head>
 <body>
 

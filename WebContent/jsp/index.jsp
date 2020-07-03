@@ -5,7 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title>JSP 게시판 만들기</title>
-<link rel="stylesheet" href="../css/style.css">
 <script>
 	function modalLogin() {
 		
