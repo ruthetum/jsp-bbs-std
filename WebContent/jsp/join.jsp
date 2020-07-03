@@ -72,7 +72,7 @@
 							</label>
 						</div>
 					</div>
-					<input type="submit" class="btn btn-primary form-control" value="로그인">
+					<input type="submit" class="btn btn-primary form-control" value="회원가입">
 				</form>
 			</div>
 		</div>
