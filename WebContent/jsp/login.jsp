@@ -49,11 +49,11 @@
 					<h3 style="text-align:center;">로그인</h3>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="ID" name="userID" maxlength="20">
-						<br>
-						<input type="password" class="form-control" placeholder="PW" name="userPW" maxlength="20">
-						<br>
-						<input type="submit" class="btn btn-primary form-control" value="로그인">
 					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" placeholder="PW" name="userPW" maxlength="20">
+					</div>
+					<input type="submit" class="btn btn-primary form-control" value="로그인">
 				</form>
 			</div>
 		</div>
