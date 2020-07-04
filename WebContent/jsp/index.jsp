@@ -7,6 +7,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width", initial-scale="1">
 <link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/style.css">
 <title>JSP 게시판 만들기</title>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="../js/bootstrap.js"></script>
@@ -69,6 +70,18 @@
 			%>
 		</div>
 	</nav>
+	
+	<div class="container">
+		<div class="jumbotron">
+			<div class="container">
+				<h1>JSP 게시판 만들기 </h1>
+				<p>
+				<p>부트스트랩으로 만든 JSP 웹 사이트</p>
+				<p>게시판 CRUD, MySQL연동, 페이징 처리</p>
+				<p><a class="btn btn-primary btn-pull" href="https://github.com/jsp-bbs-std" role="button">GitHub 이동하기</a></p>
+			</div>
+		</div>
+	</div>
 	
 	
 	
