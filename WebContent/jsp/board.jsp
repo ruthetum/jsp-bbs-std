@@ -102,7 +102,11 @@
 					%>
 					<tr>
 						<td><%= list.get(i).getBoardID() %></td>
-						<td><a href="detail.jsp?boardID=<%= list.get(i).getBoardID() %>"><%= list.get(i).getBoardTitle() %></a></td>
+						<td><a href="detail.jsp?boardID=<%= list.get(i).getBoardID() %>"><%= list.get(i).getBoardTitle()
+								.replaceAll(" ","&nbsp;")
+								.replaceAll("<", "lt;")
+								.replaceAll(">", "gt;")
+								.replaceAll("\n", "<br>") %></a></td>
 						<td><%= list.get(i).getBoardAuthor() %></td>
 						<td><%= list.get(i).getBoardDate().substring(0, 10) + " " +
 								list.get(i).getBoardDate().substring(11, 13) + "시" +
