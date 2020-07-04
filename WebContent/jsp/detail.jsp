@@ -133,7 +133,7 @@
 				if (userID != null && userID.equals(board.getBoardAuthor())) {
 			%>
 					<a href="edit.jsp?boardID=<%= boardID %>" class="btn btn-primary">수정하기</a>
-					<a href="deleteAction.jsp?boardID=<%= boardID %>" class="btn btn-primary">삭제하기</a>
+					<a onclick="return confirm('정말 삭제하시겠습니까?')" href="deleteAction.jsp?boardID=<%= boardID %>" class="btn btn-primary">삭제하기</a>
 			<%
 				}
 			%>
